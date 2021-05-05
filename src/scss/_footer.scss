@@ -1,0 +1,43 @@
+.footer {
+  i {
+    color: $white;
+  }
+
+  a {
+    color: $white;
+    font-weight: 400;
+  }
+
+  .footer-wrap {
+    a {
+      font-size: 0.9rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+
+    h5 {
+      font-weight: 500;
+      font-size: 1rem;
+    }
+  }
+  .footer-wrap a,
+  .footer-wrap p,
+  .footer-wrap h5 {
+    font-family: $font-family-sans-serif;
+  }
+
+  .footer-copyright {
+    background-color: $theme-bt-three;
+
+    p {
+      font-size: 0.85rem;
+      font-family: $font-family-sans-serif;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}

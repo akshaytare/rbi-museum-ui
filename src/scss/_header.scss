@@ -10,7 +10,19 @@
 }
 
 .top-bar-buttons {
-  background-color: $theme-bg-two;
+  // background-color: $theme-bg-two;
+  button {
+    border: 1px solid $white;
+    color: $white;
+    font-size: 0.8rem;
+  }
+
+  button:hover,
+  button:active,
+  button:focus {
+    color: $primary;
+    background-color: $white;
+  }
 }
 
 .top-bar-buttons i {

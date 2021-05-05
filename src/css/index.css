@@ -7291,8 +7291,16 @@ section {
 .top-bar i {
   vertical-align: middle; }
 
-.top-bar-buttons {
-  background-color: #eefffe; }
+.top-bar-buttons button {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 0.8rem; }
+
+.top-bar-buttons button:hover,
+.top-bar-buttons button:active,
+.top-bar-buttons button:focus {
+  color: #1d3557;
+  background-color: #fff; }
 
 .top-bar-buttons i {
   vertical-align: initial; }
@@ -7433,5 +7441,35 @@ section {
     height: 100%;
     width: 100%;
     position: absolute; }
+
+.footer i {
+  color: #fff; }
+
+.footer a {
+  color: #fff;
+  font-weight: 400; }
+
+.footer .footer-wrap a {
+  font-size: 0.9rem; }
+
+.footer .footer-wrap p {
+  font-size: 0.9rem; }
+
+.footer .footer-wrap h5 {
+  font-weight: 500;
+  font-size: 1rem; }
+
+.footer .footer-wrap a,
+.footer .footer-wrap p,
+.footer .footer-wrap h5 {
+  font-family: "Mulish", sans-serif; }
+
+.footer .footer-copyright {
+  background-color: #457b9d; }
+  .footer .footer-copyright p {
+    font-size: 0.85rem;
+    font-family: "Mulish", sans-serif; }
+  .footer .footer-copyright a {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=maps/index.css.map */
