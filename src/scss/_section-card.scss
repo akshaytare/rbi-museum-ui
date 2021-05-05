@@ -1,0 +1,18 @@
+.section-card {
+  .box {
+    display: flex;
+    align-items: center;
+  }
+
+  .text-box {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    h3 {
+      font-weight: 600;
+    }
+    p {
+      font-weight: 500;
+      font-size: 1.07rem;
+    }
+  }
+}

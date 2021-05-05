@@ -1,9 +1,8 @@
-.slider-hero {
-  overflow: hidden;
+.hero-slider .slider-box {
 }
 
-.slider-hero .slick-dots {
-  bottom: 110px;
+.hero-slider .slick-dots {
+  bottom: 40px;
 }
 
 .slick-prev:before,
@@ -17,4 +16,35 @@
 .slick-prev {
   left: 80px;
   z-index: 999;
+}
+
+.slick-dots li button:before {
+  color: $white;
+}
+
+.hero-slider .slider-content {
+  position: absolute;
+  top: 35%;
+  margin: auto;
+  width: 100%;
+  color: $white;
+  text-align: center;
+  z-index: 999;
+}
+
+.hero-slider .slide-wrap {
+  position: relative;
+}
+
+.hero-slider .slider-content h2 {
+  font-weight: 400;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-slider .slider-content a {
+  color: $white;
+  border: 2px solid $white;
+  padding: 0.6rem 2rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
 }

@@ -7,8 +7,18 @@
 /** colors **/
 /* theme */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,600&display=swap");
+.theme-bg-one {
+  background-color: #f1faee; }
+
+.theme-bg-two {
+  background-color: #eefffe; }
+
 p {
-  font-family: "Source Serif Pro", serif; }
+  font-family: "Source Serif Pro", serif;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.5); }
+
+a {
+  font-weight: 600; }
 
 /* bootstrap modules should be below */
 /*!
@@ -7267,6 +7277,10 @@ a.text-dark:hover, a.text-dark:focus {
 button,
 .btn {
   font-weight: 600; }
+
+section {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
 
 /* Don't write scss or css in this file
    Use this file just to modiy the bootstrap theme by importing sass modules */

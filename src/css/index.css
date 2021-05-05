@@ -7,8 +7,18 @@
 /** colors **/
 /* theme */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,600&display=swap");
+.theme-bg-one {
+  background-color: #f1faee; }
+
+.theme-bg-two {
+  background-color: #eefffe; }
+
 p {
-  font-family: "Source Serif Pro", serif; }
+  font-family: "Source Serif Pro", serif;
+  text-shadow: 0px 0px rgba(0, 0, 0, 0.5); }
+
+a {
+  font-weight: 600; }
 
 /* bootstrap modules should be below */
 /*!
@@ -7268,6 +7278,10 @@ button,
 .btn {
   font-weight: 600; }
 
+section {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
 /* Don't write scss or css in this file
    Use this file just to modiy the bootstrap theme by importing sass modules */
 .top-bar div {
@@ -7278,7 +7292,7 @@ button,
   vertical-align: middle; }
 
 .top-bar-buttons {
-  background-color: #f1faee; }
+  background-color: #eefffe; }
 
 .top-bar-buttons i {
   vertical-align: initial; }
@@ -7296,11 +7310,8 @@ button,
   background-color: #e63946;
   border-radius: 4px; }
 
-.slider-hero {
-  overflow: hidden; }
-
-.slider-hero .slick-dots {
-  bottom: 110px; }
+.hero-slider .slick-dots {
+  bottom: 40px; }
 
 .slick-prev:before,
 .slick-next:before {
@@ -7312,5 +7323,115 @@ button,
 .slick-prev {
   left: 80px;
   z-index: 999; }
+
+.slick-dots li button:before {
+  color: #fff; }
+
+.hero-slider .slider-content {
+  position: absolute;
+  top: 35%;
+  margin: auto;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  z-index: 999; }
+
+.hero-slider .slide-wrap {
+  position: relative; }
+
+.hero-slider .slider-content h2 {
+  font-weight: 400;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5); }
+
+.hero-slider .slider-content a {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 0.6rem 2rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.buttons-card {
+  background-image: url("../images/buttons-card-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.buttons-card .card-wrap {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.buttons-card.rounded,
+.buttons-card .rounded {
+  border-radius: 0.8rem !important; }
+
+.buttons-card .card-contain {
+  color: #fff;
+  text-align: center; }
+  .buttons-card .card-contain h2 {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5); }
+  .buttons-card .card-contain .buttons a {
+    background-color: #fff;
+    color: #1d3557; }
+  .buttons-card .card-contain .buttons .main-btn {
+    background-color: #e63946;
+    color: #fff; }
+
+.section-card-fluid .box {
+  display: flex;
+  align-items: center; }
+
+.section-card-fluid .text-box {
+  padding-left: 6.5rem; }
+  .section-card-fluid .text-box h3 {
+    font-weight: 600; }
+  .section-card-fluid .text-box p {
+    font-weight: 500;
+    font-size: 1.07rem; }
+  .section-card-fluid .text-box a {
+    background-color: #e63946;
+    color: #fff; }
+
+.section-card .box {
+  display: flex;
+  align-items: center; }
+
+.section-card .text-box {
+  padding-left: 6rem;
+  padding-right: 6rem; }
+  .section-card .text-box h3 {
+    font-weight: 600; }
+  .section-card .text-box p {
+    font-weight: 500;
+    font-size: 1.07rem; }
+
+.cards-gallery h2 {
+  text-align: center;
+  font-weight: 600; }
+
+.cards-gallery h5 {
+  font-weight: 600; }
+
+.cards-gallery .buttons-wrap {
+  text-align: center; }
+
+.cards-gallery .btn {
+  color: #fff; }
+
+.cards-gallery a {
+  color: #fff;
+  background-color: #e63946; }
+
+.google-map {
+  height: 500px;
+  overflow: hidden; }
+  .google-map .map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0; }
+  .google-map .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
 
 /*# sourceMappingURL=maps/index.css.map */

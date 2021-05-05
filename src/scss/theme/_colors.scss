@@ -2,10 +2,18 @@
 
 $primary: $prussian-blue;
 $theme-main-color: $imperial-red;
+$theme-bg-one: $honeydew;
+$theme-bg-two: $powder-blue;
 $white: #fff;
-
-$theme-bg-two: $honeydew;
 
 /* theme */
 $body-bg: #fff;
 $body-color: $primary;
+
+.theme-bg-one {
+  background-color: $theme-bg-one;
+}
+
+.theme-bg-two {
+  background-color: $theme-bg-two;
+}

@@ -1,0 +1,33 @@
+.buttons-card {
+  background-image: url("../images/buttons-card-bg.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buttons-card .card-wrap {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.buttons-card.rounded,
+.buttons-card .rounded {
+  border-radius: 0.8rem !important;
+}
+
+.buttons-card .card-contain {
+  color: $white;
+  text-align: center;
+  h2 {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .buttons a {
+    background-color: $white;
+    color: $primary;
+  }
+
+  .buttons .main-btn {
+    background-color: $theme-main-color;
+    color: $white;
+  }
+}
