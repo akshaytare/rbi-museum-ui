@@ -1,0 +1,20 @@
+.slider-hero {
+  overflow: hidden;
+}
+
+.slider-hero .slick-dots {
+  bottom: 110px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #fff;
+}
+.slick-next {
+  right: 80px;
+}
+
+.slick-prev {
+  left: 80px;
+  z-index: 999;
+}

@@ -1,0 +1,33 @@
+@import "./rbi-museum-theme.scss";
+
+.top-bar div {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.top-bar i {
+  vertical-align: middle;
+}
+
+.top-bar-buttons {
+  background-color: $theme-bg-two;
+}
+
+.top-bar-buttons i {
+  vertical-align: initial;
+}
+
+.menu-bar-main .navbar-nav .nav-link {
+  font-weight: 600;
+  color: $primary;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.menu-bar-main .active .nav-link {
+  color: $white;
+  background-color: $theme-main-color;
+  border-radius: 4px;
+}

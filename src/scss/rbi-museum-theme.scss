@@ -1,0 +1,14 @@
+/* Don't write scss or css in this file
+   Use this file just to modiy the bootstrap theme by importing sass modules */
+
+@import "./theme/color-palette";
+@import "./theme/colors";
+@import "./theme/typograpy";
+
+/* bootstrap modules should be below */
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./theme/custom";
+
+/* Don't write scss or css in this file
+   Use this file just to modiy the bootstrap theme by importing sass modules */

@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-sass-starter-customizable",
+  "version": "1.0.0",
+  "description": "Bootstrap-4-SASS-GULP-BrowserSync-StarterTemplate-bootstrap-theme-customizable",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "Bootstrap4-SASS",
+    "Bootstrap-customize-theme",
+    "Bootstrap-customizable-template",
+    "SASS-GULP",
+    "SASS-BrowserSync",
+    "SASS-Starter-template",
+    "Gulp-Starter",
+    "Bootstrap-gulp-postcss-autoprefixer-cssnano-template"
+  ],
+  "author": "Akshay Tare",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.8",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
