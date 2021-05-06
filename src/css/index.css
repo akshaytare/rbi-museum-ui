@@ -7514,12 +7514,12 @@ section {
     padding-left: 2rem !important;
     padding-right: 2rem !important; } }
 
-.cards-gallery h2 {
-  text-align: center;
-  font-weight: 600; }
+.cards-gallery p.card-text {
+  color: #1d3557; }
 
 .cards-gallery h5 {
-  font-weight: 600; }
+  font-weight: 600;
+  color: #1d3557; }
 
 .cards-gallery .buttons-wrap {
   text-align: center; }
