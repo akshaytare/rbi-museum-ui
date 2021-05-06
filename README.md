@@ -1,7 +1,20 @@
-# RBI Museum UI - Bootstrap-4 & SASS Gulp-BrowserSync
+# The Reserve Bank of India Museum - UI
 
-To install use - npm install
+&nbsp;
 
-To Run use - npm start
+![Template](https://i.ibb.co/KmZVhZB/rbi-museum-website-design-concept.jpg)
 
-"# rbi-museum-ui"
+### Installation & Running the code
+
+```bash
+# Install
+$ npm install
+
+# Run
+$ npm start
+
+```
+
+&nbsp;
+&nbsp;
+&nbsp;
