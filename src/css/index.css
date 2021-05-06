@@ -7403,10 +7403,11 @@ section {
     height: 90vh;
     max-width: unset; }
   .slick-next {
-    display: none;
-    right: none; }
+    visibility: hidden;
+    display: none; }
   .slick-prev {
-    left: 50px; } }
+    visibility: hidden;
+    display: none; } }
 
 .buttons-card {
   background-image: url("../images/buttons-card-bg.jpg");

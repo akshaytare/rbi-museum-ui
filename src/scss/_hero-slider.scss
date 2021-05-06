@@ -71,11 +71,12 @@
   }
 
   .slick-next {
+    visibility: hidden;
     display: none;
-    right: none;
   }
 
   .slick-prev {
-    left: 50px;
+    visibility: hidden;
+    display: none;
   }
 }
