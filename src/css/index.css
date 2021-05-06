@@ -7324,10 +7324,6 @@ section {
 .menu-bar-main .navbar-nav .nav-link.active {
   color: #fff; }
 
-.menu-bar-main.navbar-light .navbar-toggler {
-  background-color: #f1faee;
-  color: #fff; }
-
 /* responsive */
 @media (min-width: 768px) {
   .navbar-expand-lg .navbar-nav.top-bar-buttons {
