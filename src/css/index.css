@@ -7318,6 +7318,21 @@ section {
   background-color: #e63946;
   border-radius: 4px; }
 
+.menu-bar-main .navbar-nav .show > .nav-link,
+.menu-bar-main .navbar-nav .active > .nav-link,
+.menu-bar-main .navbar-nav .nav-link.show,
+.menu-bar-main .navbar-nav .nav-link.active {
+  color: #fff; }
+
+/* responsive */
+@media (min-width: 768px) {
+  .navbar-expand-lg .navbar-nav.top-bar-buttons {
+    flex-direction: row; } }
+
+@media (max-width: 767px) {
+  .navbar-expand-lg.top-bar {
+    display: none; } }
+
 .hero-slider .slick-dots {
   bottom: 40px; }
 
