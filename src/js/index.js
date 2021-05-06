@@ -1,1 +1,7 @@
-document.getElementById("example-para").style.color = "#02c59b";
+$(document).ready(function () {
+  $(".slider-hero-homepage").slick({
+    dots: true,
+    autoplay: true,
+    arrows: true,
+  });
+});
