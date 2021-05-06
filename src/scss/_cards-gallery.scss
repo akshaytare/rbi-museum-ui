@@ -20,3 +20,13 @@
     background-color: $theme-main-color;
   }
 }
+
+/* responsive */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .cards-gallery {
+    .container {
+      max-width: 100%;
+    }
+  }
+}

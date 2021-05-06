@@ -7521,6 +7521,11 @@ section {
   color: #fff;
   background-color: #e63946; }
 
+/* responsive */
+@media (min-width: 767px) and (max-width: 991px) {
+  .cards-gallery .container {
+    max-width: 100%; } }
+
 .google-map {
   height: 500px;
   overflow: hidden; }
