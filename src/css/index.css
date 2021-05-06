@@ -7459,7 +7459,8 @@ section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
     padding-left: 3rem !important;
-    padding-right: 3rem !important; } }
+    padding-right: 3rem !important;
+    text-align: center; } }
 
 @media (max-width: 767px) {
   .section-card-fluid .text-box {
@@ -7478,6 +7479,30 @@ section {
   .section-card .text-box p {
     font-weight: 500;
     font-size: 1.07rem; }
+
+/* responsive */
+@media (max-width: 1199px) {
+  .section-card .text-box {
+    padding-left: 4rem;
+    padding-right: 4rem; } }
+
+@media (max-width: 991px) {
+  .section-card .image-box {
+    height: 300px;
+    overflow: hidden; }
+  .section-card .text-box {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important; } }
+
+@media (max-width: 767px) {
+  .section-card .text-box {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
+
+@media (max-width: 575px) {
+  .section-card .text-box {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important; } }
 
 .cards-gallery h2 {
   text-align: center;
