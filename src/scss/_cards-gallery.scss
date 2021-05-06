@@ -1,4 +1,10 @@
 .cards-gallery {
+  h2 {
+    text-align: center;
+    font-weight: 600;
+    color: $primary;
+  }
+
   p.card-text {
     color: $primary;
   }
