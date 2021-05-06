@@ -7521,6 +7521,9 @@ section {
   color: #fff;
   background-color: #e63946; }
 
+.cards-gallery .container {
+  overflow: hidden; }
+
 /* responsive */
 @media (min-width: 767px) and (max-width: 991px) {
   .cards-gallery .container {
