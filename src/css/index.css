@@ -7373,6 +7373,28 @@ section {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.4); }
 
+/* responsive */
+@media (max-width: 991px) {
+  .hero-slider .slider-image {
+    width: auto;
+    height: 80vh;
+    max-width: unset; } }
+
+@media (max-width: 767px) {
+  .hero-slider .slider-image {
+    height: 90vh;
+    max-width: unset; }
+  .slick-next {
+    right: 50px; }
+  .slick-prev {
+    left: 50px; } }
+
+@media (max-width: 575px) {
+  .slick-next {
+    display: none; }
+  .slick-prev {
+    display: none; } }
+
 .buttons-card {
   background-image: url("../images/buttons-card-bg.jpg");
   background-size: cover;
