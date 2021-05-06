@@ -7527,7 +7527,6 @@ section {
     max-width: 100%; } }
 
 .google-map {
-  height: 500px;
   overflow: hidden; }
   .google-map .map-responsive {
     overflow: hidden;
@@ -7552,7 +7551,8 @@ section {
   font-size: 0.9rem; }
 
 .footer .footer-wrap p {
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  line-height: 1.6rem; }
 
 .footer .footer-wrap h5 {
   font-weight: 500;
@@ -7570,5 +7570,12 @@ section {
     font-family: "Mulish", sans-serif; }
   .footer .footer-copyright a {
     text-decoration: underline; }
+
+/* responsive */
+@media (max-width: 767px) {
+  .footer .title {
+    text-align: center; }
+  .footer .footer-wrap .row {
+    justify-content: center; } }
 
 /*# sourceMappingURL=maps/index.css.map */

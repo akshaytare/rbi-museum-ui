@@ -15,6 +15,7 @@
 
     p {
       font-size: 0.9rem;
+      line-height: 1.6rem;
     }
 
     h5 {
@@ -38,6 +39,25 @@
 
     a {
       text-decoration: underline;
+    }
+  }
+}
+
+/* responsive */
+
+@media (max-width: 767px) {
+  .footer {
+    .title {
+      text-align: center;
+    }
+
+    .footer-wrap {
+      .row {
+        justify-content: center;
+
+        .footer-col {
+        }
+      }
     }
   }
 }
