@@ -1,4 +1,4 @@
-# RBI Museum UI - Bootstrap-4
+# The Reserve Bank of India Museum - UI
 
 [Click here for Live Demo](https://rbi-museum.netlify.app/)
 
