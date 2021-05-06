@@ -7588,24 +7588,20 @@ section {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  background-color: #3498db;
-  text-indent: -9999px;
+  background-color: #1d3557;
   display: none;
-  border-radius: 60px; }
+  border-radius: 60px;
+  opacity: 0.7; }
 
-#scroll-to-top span {
+#scroll-to-top i {
+  color: #fff;
+  font-size: 1.5rem;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -8px;
-  margin-top: -12px;
-  height: 0;
-  width: 0;
-  border: 8px solid transparent;
-  border-bottom-color: #ffffff; }
+  top: 10px;
+  left: 13px; }
 
 #scroll-to-top:hover {
-  background-color: #e74c3c;
+  background-color: #457b9d;
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)"; }
