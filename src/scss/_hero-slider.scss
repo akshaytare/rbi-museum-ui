@@ -71,20 +71,11 @@
   }
 
   .slick-next {
-    right: 50px;
+    display: none;
+    right: none;
   }
 
   .slick-prev {
     left: 50px;
-  }
-}
-
-@media (max-width: 575px) {
-  .slick-next {
-    display: none;
-  }
-
-  .slick-prev {
-    display: none;
   }
 }
