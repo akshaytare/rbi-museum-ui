@@ -7333,6 +7333,10 @@ section {
   .navbar-expand-lg.top-bar {
     display: none; } }
 
+@media (max-width: 360px) {
+  .menu-bar-main .navbar-brand .logo-image {
+    height: 40px; } }
+
 .hero-slider .slick-dots {
   bottom: 40px; }
 
@@ -7418,6 +7422,12 @@ section {
   .buttons-card .card-contain .buttons .main-btn {
     background-color: #e63946;
     color: #fff; }
+
+/* responsive */
+@media (max-width: 767px) {
+  .buttons-card .card-wrap {
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
 
 .section-card-fluid .box {
   display: flex;

@@ -31,3 +31,12 @@
     color: $white;
   }
 }
+
+/* responsive */
+
+@media (max-width: 767px) {
+  .buttons-card .card-wrap {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
